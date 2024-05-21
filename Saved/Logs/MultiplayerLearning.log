@@ -2802,3 +2802,332 @@ Make sure 'BP_Enemy_Spawner_C' has been compiled for  Get FilteredPaths
 [2024.05.21-16.38.33:993][812]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
 [2024.05.21-16.38.34:023][813]LogPlayLevel: Display: Destroying online subsystem :Context_23
 [2024.05.21-16.38.34:023][813]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2024.05.21-16.42.00:314][689]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.05.21-16.42.00:324][689]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.05.21-16.42.00:324][689]PIE: New page: PIE session: MAP_MainMenu (May 21, 2024, 8:42:00 PM)
+[2024.05.21-16.42.00:324][689]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_MainMenu
+[2024.05.21-16.42.00:327][689]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003225s)
+[2024.05.21-16.42.00:327][689]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_MainMenu.MAP_MainMenu to /Game/Maps/UEDPIE_0_MAP_MainMenu.MAP_MainMenu (0.003264s)
+[2024.05.21-16.42.00:346][689]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2024.05.21-16.42.00:347][689]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.21-16.42.00:347][689]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.21-16.42.00:347][689]LogAIModule: Creating AISystem for world MAP_MainMenu
+[2024.05.21-16.42.00:347][689]LogPlayLevel: PIE: World Init took: (0.001060s)
+[2024.05.21-16.42.00:348][689]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2024.05.21-16.42.00:348][689]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.05.21-16.42.00:348][689]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.05.21-16.42.00:348][689]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.05.21-16.42.00:348][689]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.05.21-16.42.00:348][689]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.05.21-16.42.00:348][689]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.05.21-16.42.00:348][689]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.05.21-16.42.00:348][689]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.05.21-16.42.00:348][689]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.05.21-16.42.00:348][689]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.05.21-16.42.00:348][689]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.05.21-16.42.00:351][689]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.05.21-16.42.00:379][689]LogAudioMixer: Display: Using Audio Hardware Device Digital Audio (S/PDIF) (High Definition Audio Device)
+[2024.05.21-16.42.00:379][689]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.05.21-16.42.00:379][689]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.05.21-16.42.00:379][689]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.05.21-16.42.00:380][689]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2024.05.21-16.42.00:380][689]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2024.05.21-16.42.00:382][689]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2024.05.21-16.42.00:382][689]LogInit: FAudioDevice initialized with ID 18.
+[2024.05.21-16.42.00:382][689]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2024.05.21-16.42.00:382][689]LogAudio: Display: Audio Device (ID: 18) registered with world 'MAP_MainMenu'.
+[2024.05.21-16.42.00:382][689]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2024.05.21-16.42.00:430][689]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.21-16.42.00:431][689]LogLoad: Game class is 'GM_MainMenu_C'
+[2024.05.21-16.42.00:432][689]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_MainMenu.MAP_MainMenu up for play (max tick rate 0) at 2024.05.21-18.42.00
+[2024.05.21-16.42.00:432][689]LogWorld: Bringing up level for play took: 0.000949
+[2024.05.21-16.42.00:435][689]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2024.05.21-16.42.00:436][689]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.05.21-16.42.00:436][689]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.05.21-16.42.00:436][689]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.05.21-16.42.00:438][689]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.05.21-16.42.00:441][689]PIE: Server logged in
+[2024.05.21-16.42.00:445][689]PIE: Play in editor total start time 0.121 seconds.
+[2024.05.21-16.42.00:445][689]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_MAP_MainMenu
+[2024.05.21-16.42.00:448][689]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003151s)
+[2024.05.21-16.42.00:448][689]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_MainMenu.MAP_MainMenu to /Game/Maps/UEDPIE_1_MAP_MainMenu.MAP_MainMenu (0.003185s)
+[2024.05.21-16.42.00:465][689]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2024.05.21-16.42.00:466][689]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.21-16.42.00:466][689]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.21-16.42.00:466][689]LogAIModule: Creating AISystem for world MAP_MainMenu
+[2024.05.21-16.42.00:467][689]LogPlayLevel: PIE: World Init took: (0.000958s)
+[2024.05.21-16.42.00:467][689]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2024.05.21-16.42.00:467][689]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.05.21-16.42.00:467][689]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.05.21-16.42.00:467][689]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.05.21-16.42.00:467][689]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.05.21-16.42.00:467][689]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.05.21-16.42.00:467][689]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.05.21-16.42.00:467][689]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.05.21-16.42.00:467][689]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.05.21-16.42.00:468][689]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.05.21-16.42.00:468][689]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.05.21-16.42.00:468][689]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.05.21-16.42.00:470][689]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.05.21-16.42.00:494][689]LogAudioMixer: Display: Using Audio Hardware Device Digital Audio (S/PDIF) (High Definition Audio Device)
+[2024.05.21-16.42.00:494][689]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.05.21-16.42.00:494][689]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.05.21-16.42.00:494][689]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.05.21-16.42.00:495][689]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2024.05.21-16.42.00:495][689]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2024.05.21-16.42.00:497][689]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2024.05.21-16.42.00:497][689]LogInit: FAudioDevice initialized with ID 19.
+[2024.05.21-16.42.00:497][689]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2024.05.21-16.42.00:497][689]LogAudio: Display: Audio Device (ID: 19) registered with world 'MAP_MainMenu'.
+[2024.05.21-16.42.00:497][689]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 19
+[2024.05.21-16.42.00:562][689]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.21-16.42.00:562][689]LogLoad: Game class is 'GM_MainMenu_C'
+[2024.05.21-16.42.00:563][689]LogWorld: Bringing World /Game/Maps/UEDPIE_1_MAP_MainMenu.MAP_MainMenu up for play (max tick rate 0) at 2024.05.21-18.42.00
+[2024.05.21-16.42.00:563][689]LogWorld: Bringing up level for play took: 0.000880
+[2024.05.21-16.42.00:566][689]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2024.05.21-16.42.00:566][689]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.05.21-16.42.00:566][689]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.05.21-16.42.00:566][689]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.05.21-16.42.00:568][689]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.05.21-16.42.00:573][689]PIE: Server logged in
+[2024.05.21-16.42.00:576][689]PIE: Play in editor total start time 0.252 seconds.
+[2024.05.21-16.42.00:597][689]LogViewport: Scene viewport resized to 1914x1000, mode Windowed.
+[2024.05.21-16.42.00:673][689]LogViewport: Scene viewport resized to 1914x1000, mode Windowed.
+[2024.05.21-16.42.01:586][733]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2024.05.21-16.42.01:586][733]LogGameState: Match State Changed from InProgress to LeavingMap
+[2024.05.21-16.42.01:586][733]LogNet: Browse: /Game/Maps/MAP_MazeLevel?listen
+[2024.05.21-16.42.01:586][733]LogLoad: LoadMap: /Game/Maps/MAP_MazeLevel?listen
+[2024.05.21-16.42.01:586][733]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_1_MAP_MainMenu
+[2024.05.21-16.42.01:587][733]LogWorld: UWorld::CleanupWorld for MAP_MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.05.21-16.42.01:587][733]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.21-16.42.01:602][733]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.05.21-16.42.01:604][733]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.05.21-16.42.01:615][733]LogAudio: Display: Audio Device (ID: 19) registered with world 'MAP_MazeLevel'.
+[2024.05.21-16.42.01:615][733]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.21-16.42.01:615][733]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.21-16.42.01:615][733]LogAIModule: Creating AISystem for world MAP_MazeLevel
+[2024.05.21-16.42.01:616][733]LogPlayLevel: PIE: World Init took: (0.000910s)
+[2024.05.21-16.42.01:616][733]LogLoad: Game class is 'GM_MultiplayerLearning_C'
+[2024.05.21-16.42.01:616][733]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2024.05.21-16.42.01:616][733]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2024.05.21-16.42.01:616][733]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2024.05.21-16.42.01:616][733]LogNet: Created socket for bind address: 0.0.0.0:7777
+[2024.05.21-16.42.01:616][733]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2024.05.21-16.42.01:616][733]LogNet: GameNetDriver IpNetDriver_8 IpNetDriver listening on port 7777
+[2024.05.21-16.42.01:677][733]LogWorld: Bringing World /Game/Maps/UEDPIE_1_MAP_MazeLevel.MAP_MazeLevel up for play (max tick rate 0) at 2024.05.21-18.42.01
+[2024.05.21-16.42.01:678][733]LogWorld: Bringing up level for play took: 0.061569
+[2024.05.21-16.42.01:685][733]LogBlueprintUserMessages: [BP_Maze_C_4] Server: Enemy Spawned on location: X=5600.000 Y=4000.000 Z=2021.995
+[2024.05.21-16.42.01:689][733]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Components/BPC_Inventory.BPC_Inventory_C'!
+[2024.05.21-16.42.01:689][733]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/Maps/UEDPIE_1_MAP_MazeLevel.MAP_MazeLevel:PersistentLevel.BP_ExoCharacter_C_0.BPC_Inventory
+[2024.05.21-16.42.01:689][733]LogScript: Warning: Script Msg: Attempted to access index 1 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Components/BPC_Inventory.BPC_Inventory_C'!
+[2024.05.21-16.42.01:689][733]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/Maps/UEDPIE_1_MAP_MazeLevel.MAP_MazeLevel:PersistentLevel.BP_ExoCharacter_C_0.BPC_Inventory
+[2024.05.21-16.42.01:689][733]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Components/BPC_Inventory.BPC_Inventory_C'!
+[2024.05.21-16.42.01:690][733]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/Maps/UEDPIE_1_MAP_MazeLevel.MAP_MazeLevel:PersistentLevel.BP_ExoCharacter_C_0.BPC_Inventory
+[2024.05.21-16.42.01:690][733]LogScript: Warning: Script Msg: Attempted to access index 3 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Components/BPC_Inventory.BPC_Inventory_C'!
+[2024.05.21-16.42.01:690][733]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/Maps/UEDPIE_1_MAP_MazeLevel.MAP_MazeLevel:PersistentLevel.BP_ExoCharacter_C_0.BPC_Inventory
+[2024.05.21-16.42.01:690][733]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Components/BPC_Inventory.BPC_Inventory_C'!
+[2024.05.21-16.42.01:690][733]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/Maps/UEDPIE_1_MAP_MazeLevel.MAP_MazeLevel:PersistentLevel.BP_ExoCharacter_C_0.BPC_Inventory
+[2024.05.21-16.42.01:690][733]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Components/BPC_Inventory.BPC_Inventory_C'!
+[2024.05.21-16.42.01:690][733]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/Maps/UEDPIE_1_MAP_MazeLevel.MAP_MazeLevel:PersistentLevel.BP_ExoCharacter_C_0.BPC_Inventory
+[2024.05.21-16.42.01:690][733]LogScript: Warning: Script Msg: Attempted to access index 6 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Components/BPC_Inventory.BPC_Inventory_C'!
+[2024.05.21-16.42.01:690][733]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/Maps/UEDPIE_1_MAP_MazeLevel.MAP_MazeLevel:PersistentLevel.BP_ExoCharacter_C_0.BPC_Inventory
+[2024.05.21-16.42.01:690][733]LogScript: Warning: Script Msg: Attempted to access index 7 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Components/BPC_Inventory.BPC_Inventory_C'!
+[2024.05.21-16.42.01:690][733]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/Maps/UEDPIE_1_MAP_MazeLevel.MAP_MazeLevel:PersistentLevel.BP_ExoCharacter_C_0.BPC_Inventory
+[2024.05.21-16.42.01:690][733]LogLoad: Took 0.104183 seconds to LoadMap(/Game/Maps/MAP_MazeLevel)
+[2024.05.21-16.42.04:800][866]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.21-16.42.04:800][866]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_1_MAP_MazeLevel
+[2024.05.21-16.42.04:800][866]LogSlate: Window 'MultiplayerLearning Preview [NetMode: Standalone 1]  (64-bit/PC D3D SM6)' being destroyed
+[2024.05.21-16.42.04:807][866]LogWorld: UWorld::CleanupWorld for MAP_MazeLevel, bSessionEnded=true, bCleanupResources=true
+[2024.05.21-16.42.04:808][866]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.21-16.42.04:809][866]LogNet: World NetDriver shutdown IpNetDriver_8 [GameNetDriver]
+[2024.05.21-16.42.04:809][866]LogNet: DestroyNamedNetDriver IpNetDriver_8 [GameNetDriver]
+[2024.05.21-16.42.04:809][866]LogExit: GameNetDriver IpNetDriver_8 shut down
+[2024.05.21-16.42.04:812][866]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_MainMenu
+[2024.05.21-16.42.04:812][866]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.21-16.42.04:812][866]LogSlate: Window 'MultiplayerLearning Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.05.21-16.42.04:817][866]LogWorld: UWorld::CleanupWorld for MAP_MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.05.21-16.42.04:817][866]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.21-16.42.04:820][866]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.05.21-16.42.04:826][866]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.21-16.42.04:843][866]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 19
+[2024.05.21-16.42.04:843][866]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2024.05.21-16.42.04:845][866]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2024.05.21-16.42.04:850][866]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2024.05.21-16.42.04:850][866]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2024.05.21-16.42.04:852][866]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2024.05.21-16.42.04:866][866]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.05.21-16.42.04:897][867]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2024.05.21-16.42.04:897][867]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2024.05.21-16.42.05:777][933]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2024.05.21-16.42.05:787][933]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.05.21-16.42.05:787][933]PIE: New page: PIE session: MAP_MainMenu (May 21, 2024, 8:42:05 PM)
+[2024.05.21-16.42.05:787][933]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MAP_MainMenu
+[2024.05.21-16.42.05:790][933]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002938s)
+[2024.05.21-16.42.05:790][933]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_MainMenu.MAP_MainMenu to /Game/Maps/UEDPIE_0_MAP_MainMenu.MAP_MainMenu (0.002972s)
+[2024.05.21-16.42.05:805][933]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.05.21-16.42.05:806][933]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.21-16.42.05:806][933]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.21-16.42.05:806][933]LogAIModule: Creating AISystem for world MAP_MainMenu
+[2024.05.21-16.42.05:807][933]LogPlayLevel: PIE: World Init took: (0.000893s)
+[2024.05.21-16.42.05:807][933]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2024.05.21-16.42.05:807][933]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.05.21-16.42.05:807][933]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.05.21-16.42.05:807][933]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.05.21-16.42.05:807][933]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.05.21-16.42.05:807][933]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.05.21-16.42.05:807][933]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.05.21-16.42.05:807][933]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.05.21-16.42.05:807][933]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.05.21-16.42.05:808][933]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.05.21-16.42.05:808][933]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.05.21-16.42.05:808][933]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.05.21-16.42.05:810][933]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.05.21-16.42.05:837][933]LogAudioMixer: Display: Using Audio Hardware Device Digital Audio (S/PDIF) (High Definition Audio Device)
+[2024.05.21-16.42.05:838][933]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.05.21-16.42.05:838][933]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.05.21-16.42.05:838][933]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.05.21-16.42.05:838][933]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2024.05.21-16.42.05:838][933]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2024.05.21-16.42.05:840][933]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2024.05.21-16.42.05:840][933]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2024.05.21-16.42.05:840][933]LogInit: FAudioDevice initialized with ID 20.
+[2024.05.21-16.42.05:840][933]LogAudio: Display: Audio Device (ID: 20) registered with world 'MAP_MainMenu'.
+[2024.05.21-16.42.05:840][933]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 20
+[2024.05.21-16.42.05:897][933]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.21-16.42.05:897][933]LogLoad: Game class is 'GM_MainMenu_C'
+[2024.05.21-16.42.05:898][933]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MAP_MainMenu.MAP_MainMenu up for play (max tick rate 0) at 2024.05.21-18.42.05
+[2024.05.21-16.42.05:898][933]LogWorld: Bringing up level for play took: 0.000910
+[2024.05.21-16.42.05:902][933]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2024.05.21-16.42.05:902][933]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.05.21-16.42.05:902][933]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.05.21-16.42.05:902][933]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.05.21-16.42.05:904][933]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.05.21-16.42.05:907][933]PIE: Server logged in
+[2024.05.21-16.42.05:910][933]PIE: Play in editor total start time 0.125 seconds.
+[2024.05.21-16.42.05:910][933]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_1_MAP_MainMenu
+[2024.05.21-16.42.05:913][933]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002870s)
+[2024.05.21-16.42.05:913][933]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MAP_MainMenu.MAP_MainMenu to /Game/Maps/UEDPIE_1_MAP_MainMenu.MAP_MainMenu (0.002899s)
+[2024.05.21-16.42.05:929][933]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.05.21-16.42.05:930][933]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.21-16.42.05:930][933]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.21-16.42.05:931][933]LogAIModule: Creating AISystem for world MAP_MainMenu
+[2024.05.21-16.42.05:931][933]LogPlayLevel: PIE: World Init took: (0.000962s)
+[2024.05.21-16.42.05:931][933]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2024.05.21-16.42.05:931][933]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.05.21-16.42.05:931][933]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.05.21-16.42.05:931][933]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.05.21-16.42.05:931][933]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.05.21-16.42.05:931][933]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.05.21-16.42.05:931][933]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.05.21-16.42.05:931][933]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.05.21-16.42.05:931][933]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.05.21-16.42.05:932][933]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.05.21-16.42.05:932][933]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.05.21-16.42.05:932][933]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.05.21-16.42.05:934][933]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.05.21-16.42.05:958][933]LogAudioMixer: Display: Using Audio Hardware Device Digital Audio (S/PDIF) (High Definition Audio Device)
+[2024.05.21-16.42.05:958][933]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.05.21-16.42.05:958][933]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.05.21-16.42.05:958][933]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.05.21-16.42.05:959][933]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2024.05.21-16.42.05:959][933]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2024.05.21-16.42.05:961][933]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2024.05.21-16.42.05:961][933]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2024.05.21-16.42.05:961][933]LogInit: FAudioDevice initialized with ID 21.
+[2024.05.21-16.42.05:961][933]LogAudio: Display: Audio Device (ID: 21) registered with world 'MAP_MainMenu'.
+[2024.05.21-16.42.05:961][933]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 21
+[2024.05.21-16.42.06:013][933]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.21-16.42.06:013][933]LogLoad: Game class is 'GM_MainMenu_C'
+[2024.05.21-16.42.06:014][933]LogWorld: Bringing World /Game/Maps/UEDPIE_1_MAP_MainMenu.MAP_MainMenu up for play (max tick rate 0) at 2024.05.21-18.42.06
+[2024.05.21-16.42.06:014][933]LogWorld: Bringing up level for play took: 0.000852
+[2024.05.21-16.42.06:016][933]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2024.05.21-16.42.06:017][933]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.05.21-16.42.06:017][933]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.05.21-16.42.06:017][933]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.05.21-16.42.06:019][933]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.05.21-16.42.06:023][933]PIE: Server logged in
+[2024.05.21-16.42.06:026][933]PIE: Play in editor total start time 0.24 seconds.
+[2024.05.21-16.42.06:049][933]LogViewport: Scene viewport resized to 1914x1000, mode Windowed.
+[2024.05.21-16.42.06:126][933]LogViewport: Scene viewport resized to 1914x1000, mode Windowed.
+[2024.05.21-16.42.07:337][990]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2024.05.21-16.42.07:338][990]LogGameState: Match State Changed from InProgress to LeavingMap
+[2024.05.21-16.42.07:338][990]LogNet: Browse: /Game/Maps/MAP_MazeLevel?listen
+[2024.05.21-16.42.07:338][990]LogLoad: LoadMap: /Game/Maps/MAP_MazeLevel?listen
+[2024.05.21-16.42.07:338][990]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_1_MAP_MainMenu
+[2024.05.21-16.42.07:338][990]LogWorld: UWorld::CleanupWorld for MAP_MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.05.21-16.42.07:339][990]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.21-16.42.07:354][990]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.05.21-16.42.07:356][990]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2024.05.21-16.42.07:367][990]LogAudio: Display: Audio Device (ID: 21) registered with world 'MAP_MazeLevel'.
+[2024.05.21-16.42.07:367][990]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.21-16.42.07:367][990]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.21-16.42.07:368][990]LogAIModule: Creating AISystem for world MAP_MazeLevel
+[2024.05.21-16.42.07:368][990]LogPlayLevel: PIE: World Init took: (0.000894s)
+[2024.05.21-16.42.07:368][990]LogLoad: Game class is 'GM_MultiplayerLearning_C'
+[2024.05.21-16.42.07:369][990]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2024.05.21-16.42.07:369][990]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2024.05.21-16.42.07:369][990]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2024.05.21-16.42.07:369][990]LogNet: Created socket for bind address: 0.0.0.0:7777
+[2024.05.21-16.42.07:369][990]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2024.05.21-16.42.07:369][990]LogNet: GameNetDriver IpNetDriver_9 IpNetDriver listening on port 7777
+[2024.05.21-16.42.07:428][990]LogWorld: Bringing World /Game/Maps/UEDPIE_1_MAP_MazeLevel.MAP_MazeLevel up for play (max tick rate 0) at 2024.05.21-18.42.07
+[2024.05.21-16.42.07:430][990]LogWorld: Bringing up level for play took: 0.060507
+[2024.05.21-16.42.07:436][990]LogBlueprintUserMessages: [BP_Maze_C_4] Server: Enemy Spawned on location: X=4400.000 Y=3200.000 Z=2021.995
+[2024.05.21-16.42.07:441][990]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Components/BPC_Inventory.BPC_Inventory_C'!
+[2024.05.21-16.42.07:441][990]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/Maps/UEDPIE_1_MAP_MazeLevel.MAP_MazeLevel:PersistentLevel.BP_ExoCharacter_C_0.BPC_Inventory
+[2024.05.21-16.42.07:441][990]LogScript: Warning: Script Msg: Attempted to access index 1 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Components/BPC_Inventory.BPC_Inventory_C'!
+[2024.05.21-16.42.07:441][990]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/Maps/UEDPIE_1_MAP_MazeLevel.MAP_MazeLevel:PersistentLevel.BP_ExoCharacter_C_0.BPC_Inventory
+[2024.05.21-16.42.07:441][990]LogScript: Warning: Script Msg: Attempted to access index 2 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Components/BPC_Inventory.BPC_Inventory_C'!
+[2024.05.21-16.42.07:441][990]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/Maps/UEDPIE_1_MAP_MazeLevel.MAP_MazeLevel:PersistentLevel.BP_ExoCharacter_C_0.BPC_Inventory
+[2024.05.21-16.42.07:441][990]LogScript: Warning: Script Msg: Attempted to access index 3 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Components/BPC_Inventory.BPC_Inventory_C'!
+[2024.05.21-16.42.07:441][990]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/Maps/UEDPIE_1_MAP_MazeLevel.MAP_MazeLevel:PersistentLevel.BP_ExoCharacter_C_0.BPC_Inventory
+[2024.05.21-16.42.07:441][990]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Components/BPC_Inventory.BPC_Inventory_C'!
+[2024.05.21-16.42.07:441][990]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/Maps/UEDPIE_1_MAP_MazeLevel.MAP_MazeLevel:PersistentLevel.BP_ExoCharacter_C_0.BPC_Inventory
+[2024.05.21-16.42.07:441][990]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Components/BPC_Inventory.BPC_Inventory_C'!
+[2024.05.21-16.42.07:441][990]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/Maps/UEDPIE_1_MAP_MazeLevel.MAP_MazeLevel:PersistentLevel.BP_ExoCharacter_C_0.BPC_Inventory
+[2024.05.21-16.42.07:441][990]LogScript: Warning: Script Msg: Attempted to access index 6 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Components/BPC_Inventory.BPC_Inventory_C'!
+[2024.05.21-16.42.07:441][990]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/Maps/UEDPIE_1_MAP_MazeLevel.MAP_MazeLevel:PersistentLevel.BP_ExoCharacter_C_0.BPC_Inventory
+[2024.05.21-16.42.07:441][990]LogScript: Warning: Script Msg: Attempted to access index 7 from array 'InventorySlots' of length 0 in '/Game/Blueprints/Components/BPC_Inventory.BPC_Inventory_C'!
+[2024.05.21-16.42.07:441][990]LogScript: Warning: Script Msg called by: BPC_Inventory_C /Game/Maps/UEDPIE_1_MAP_MazeLevel.MAP_MazeLevel:PersistentLevel.BP_ExoCharacter_C_0.BPC_Inventory
+[2024.05.21-16.42.07:441][990]LogLoad: Took 0.103009 seconds to LoadMap(/Game/Maps/MAP_MazeLevel)
+[2024.05.21-16.42.11:110][156]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.21-16.42.11:110][156]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_1_MAP_MazeLevel
+[2024.05.21-16.42.11:110][156]LogSlate: Window 'MultiplayerLearning Preview [NetMode: Standalone 1]  (64-bit/PC D3D SM6)' being destroyed
+[2024.05.21-16.42.11:115][156]LogWorld: UWorld::CleanupWorld for MAP_MazeLevel, bSessionEnded=true, bCleanupResources=true
+[2024.05.21-16.42.11:117][156]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.21-16.42.11:118][156]LogNet: World NetDriver shutdown IpNetDriver_9 [GameNetDriver]
+[2024.05.21-16.42.11:118][156]LogNet: DestroyNamedNetDriver IpNetDriver_9 [GameNetDriver]
+[2024.05.21-16.42.11:118][156]LogExit: GameNetDriver IpNetDriver_9 shut down
+[2024.05.21-16.42.11:120][156]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MAP_MainMenu
+[2024.05.21-16.42.11:121][156]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.21-16.42.11:121][156]LogSlate: Window 'MultiplayerLearning Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.05.21-16.42.11:126][156]LogWorld: UWorld::CleanupWorld for MAP_MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.05.21-16.42.11:126][156]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.21-16.42.11:129][156]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.05.21-16.42.11:134][156]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.21-16.42.11:151][156]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 21
+[2024.05.21-16.42.11:151][156]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2024.05.21-16.42.11:153][156]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2024.05.21-16.42.11:158][156]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 20
+[2024.05.21-16.42.11:158][156]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2024.05.21-16.42.11:160][156]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2024.05.21-16.42.11:173][156]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2024.05.21-16.42.11:202][157]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2024.05.21-16.42.11:202][157]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2024.05.21-16.42.20:368][381]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2024.05.21-16.42.26:802][401]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Headset Earphone (Poly Blackwire 3320 Series), InstanceID=1
+[2024.05.21-16.42.27:086][401]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=1740
+[2024.05.21-16.42.27:410][402]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{f5f9f888-31ac-467c-a7fe-043e20a129f3}, Name=Headset Earphone (Poly Blackwire 3320 Series)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=19.08
+[2024.05.21-16.42.27:410][402]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2024.05.21-16.42.27:412][402]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2024.05.21-16.42.56:487][733]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2024.05.21-16.42.58:666][739]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.05.21-16.42.58:667][739]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/MAP_MainMenu' took 0.018
+[2024.05.21-16.42.58:667][739]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Maze/BP_Maze] ([2] browsable assets)...
+[2024.05.21-16.42.58:667][739]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Maze/BP_Maze]
+[2024.05.21-16.42.58:667][739]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Maze/BP_Maze" FILE="C:/Users/Srdjan/Desktop/Labyrinth/master_game/Saved/Autosaves/Game/Blueprints/Maze/BP_Maze_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2024.05.21-16.42.58:754][739]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Maze/BP_Maze_Auto2
+[2024.05.21-16.42.58:755][739]LogSavePackage: Moving 'C:/Users/Srdjan/Desktop/Labyrinth/master_game/Saved/BP_Maze_Auto2F141744C48DE56830DF92F980991CA25.tmp' to 'C:/Users/Srdjan/Desktop/Labyrinth/master_game/Saved/Autosaves/Game/Blueprints/Maze/BP_Maze_Auto2.uasset'
+[2024.05.21-16.42.58:757][739]LogFileHelpers: Auto-saving content packages took 0.090
+[2024.05.21-16.43.29:465][354]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2024.05.21-16.43.41:602][391]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
